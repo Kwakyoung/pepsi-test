@@ -135,7 +135,7 @@ hr {
         flex-direction: column; /* 플렉스-방향 : 컬럼(=열, 수직) */
     }
     hr {
-        margin 30px 0 0 0;
+        margin : 30px 0 0 0;
     }
     .info {
         background-color: #005891;
