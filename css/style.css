@@ -1,0 +1,116 @@
+.logo {
+  width: 100px;
+  height: 110px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.menu {
+  /* div는 기본값 width : 100%로 설계되어 있음 */
+  background-color: #005891; /* 배경 - 색상: 색상코드 */
+  text-align: center; /* 사이즈 모를때, 가로 가운데 배치 */
+  height: 50px; /* 높이 : 50px */
+  line-height: 50px; /* 글자 행-높이 */
+  margin: 20px;
+}
+.menu a {
+  /* a: 파랑색, 밑줄 스타일을 태생적으로 갖음 */
+  color: white;
+  text-decoration: none; /* 밑줄 없애줌*/
+  margin: 0 10px; /* (바깥)여백 : 상하0 , 좌우 10px; */
+  font-size: 14px;
+  font-weight: bold;
+}
+.menu a:hover {
+  /* 의사(pseudo-class) 선택자 hand + over */
+  color: #fcff00;
+}
+.hero_img {
+  width: 800px; /* 가로 폭 : */
+  height: 500px; /* 세로 높이 : */
+  margin: 0 auto; /* (바깥)여백 : 상하0, 좌우 자동으로 ~ */
+}
+
+.title {
+  text-align: center;
+  margin: 60px 0 30px 0;
+}
+.title h1 {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 10px;
+}
+.title p {
+  font-size: 16px;
+  color: #555555; /*#555 와 #555555 는 같음. */
+}
+
+.clips {
+  width: 650px;
+  margin: 0 auto;
+  font-size: 0; /* 글자마다 자동으로 생성되는 여백을 없애줌 */
+  display: flex; /* 표시 : 플렉스 (기본값 : 가로로 나열해서 표현) */
+}
+.clip:nth-child(1) {
+  /* 클립중 첫번째 클립에 넣어준다 */
+  margin-right: 50px;
+}
+.clip h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.clip h2,
+.clip p {
+  font-size: 16px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.sns {
+  text-align: center;
+  margin: 50px;
+}
+.sns a {
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+.sns a:nth-child(4) {
+  margin-right: 0;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 15px;
+  color: #005891;
+  text-transform: uppercase; /* 텍스트-변형 : 대문자로 */
+  /*lowercase-소문자로, capitalize-첫문자를 대문자로 */
+}
+
+.contact p {
+  font-weight: bold;
+  font-size: 30px;
+  color: #005891;
+}
+
+hr {
+    margin: 50px 0;
+    height: 1px;
+    background-color: #005891;
+    border: 0;
+}
+
+.info {
+    text-align: center;
+}
+.info p:nth-child(1) {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.info p:nth-child(2) {
+    font-size: 11px;
+    text-transform: uppercase;
+}
